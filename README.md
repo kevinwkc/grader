@@ -1,9 +1,11 @@
 project
 ------------------
-ssh port:2200 ip:52.11.100.226
+ssh port:2200 ip:54.190.14.214
 
-webapp: http://52.11.100.226/
+webapp: http://54.190.14.214
 
+passwd grader G4a1e4
+passwd root U1aci1y
 
 Reference
 --------------   
@@ -49,6 +51,7 @@ sudo ufw status
 Configure the local timezone to UTC
 ------------------------------------------
 https://help.ubuntu.com/community/UbuntuTime#Using_the_Command_Line_.28terminal.29
+sudo dpkg-reconfigure tzdata
 
 Install and configure Apache to serve a Python mod_wsgi application
 ----------------------------------------------------------------------------------
